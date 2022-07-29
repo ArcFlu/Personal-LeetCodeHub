@@ -11,7 +11,6 @@ class Solution:
                 minNum = prices[0]
             else:
                 minNum = min(minNum, i)
-            print(i - minNum)
             maxSum = max(maxSum, i - minNum)
         
         return maxSum
